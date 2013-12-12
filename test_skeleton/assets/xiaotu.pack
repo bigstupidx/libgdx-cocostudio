@@ -1,0 +1,19 @@
+
+xiaotu.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cc1
+  rotate: false
+  xy: 1, 110
+  size: 125, 132
+  orig: 125, 132
+  offset: 0, 0
+  index: -1
+cc2
+  rotate: false
+  xy: 1, 1
+  size: 125, 107
+  orig: 125, 107
+  offset: 0, 0
+  index: -1

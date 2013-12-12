@@ -1,0 +1,75 @@
+
+texture.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+i5
+  rotate: false
+  xy: 1, 1
+  size: 67, 234
+  orig: 72, 234
+  offset: 5, 0
+  index: -1
+i3
+  rotate: false
+  xy: 70, 25
+  size: 72, 210
+  orig: 72, 234
+  offset: 0, 0
+  index: -1
+i11
+  rotate: false
+  xy: 144, 57
+  size: 92, 178
+  orig: 145, 178
+  offset: 20, 0
+  index: -1
+i15
+  rotate: false
+  xy: 238, 66
+  size: 92, 169
+  orig: 145, 178
+  offset: 20, 0
+  index: -1
+i13
+  rotate: false
+  xy: 332, 59
+  size: 82, 176
+  orig: 145, 178
+  offset: 26, 0
+  index: -1
+i9
+  rotate: false
+  xy: 416, 56
+  size: 71, 179
+  orig: 72, 234
+  offset: 1, 0
+  index: -1
+i7
+  rotate: false
+  xy: 489, 38
+  size: 70, 197
+  orig: 72, 234
+  offset: 2, 1
+  index: -1
+i19
+  rotate: false
+  xy: 561, 154
+  size: 145, 81
+  orig: 145, 178
+  offset: 0, 22
+  index: -1
+i17
+  rotate: false
+  xy: 561, 79
+  size: 132, 73
+  orig: 145, 178
+  offset: 1, 4
+  index: -1
+i21
+  rotate: false
+  xy: 708, 188
+  size: 53, 47
+  orig: 145, 178
+  offset: 47, 55
+  index: -1

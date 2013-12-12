@@ -1,0 +1,416 @@
+
+animation.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+06
+  rotate: false
+  xy: 1, 582
+  size: 445, 441
+  orig: 445, 441
+  offset: 0, 0
+  index: -1
+flame3
+  rotate: false
+  xy: 1, 327
+  size: 192, 253
+  orig: 218, 256
+  offset: 18, 3
+  index: -1
+flame4
+  rotate: false
+  xy: 448, 767
+  size: 186, 256
+  orig: 218, 256
+  offset: 24, 0
+  index: -1
+circle4
+  rotate: false
+  xy: 195, 347
+  size: 200, 233
+  orig: 200, 233
+  offset: 0, 0
+  index: -1
+circle3
+  rotate: false
+  xy: 636, 807
+  size: 200, 216
+  orig: 200, 233
+  offset: 0, 0
+  index: -1
+01
+  rotate: false
+  xy: 1, 80
+  size: 163, 245
+  orig: 163, 259
+  offset: 0, 10
+  index: -1
+flame5
+  rotate: false
+  xy: 838, 778
+  size: 163, 245
+  orig: 218, 256
+  offset: 24, 9
+  index: -1
+circle1
+  rotate: false
+  xy: 448, 564
+  size: 200, 201
+  orig: 200, 233
+  offset: 0, 0
+  index: -1
+circle2
+  rotate: false
+  xy: 397, 361
+  size: 200, 201
+  orig: 200, 233
+  offset: 0, 0
+  index: -1
+flame6
+  rotate: false
+  xy: 650, 561
+  size: 140, 244
+  orig: 218, 256
+  offset: 37, 8
+  index: -1
+flame2
+  rotate: false
+  xy: 792, 616
+  size: 216, 160
+  orig: 218, 256
+  offset: 2, 8
+  index: -1
+hitx
+  rotate: false
+  xy: 599, 393
+  size: 177, 166
+  orig: 177, 166
+  offset: 0, 0
+  index: -1
+hittype23
+  rotate: false
+  xy: 166, 33
+  size: 109, 292
+  orig: 109, 300
+  offset: 0, 8
+  index: -1
+flame7
+  rotate: false
+  xy: 277, 117
+  size: 134, 228
+  orig: 218, 256
+  offset: 41, 3
+  index: -1
+02
+  rotate: false
+  xy: 413, 134
+  size: 140, 225
+  orig: 163, 259
+  offset: 19, 11
+  index: -1
+defense
+  rotate: false
+  xy: 277, 1
+  size: 100, 114
+  orig: 100, 116
+  offset: 0, 1
+  index: -1
+flame1
+  rotate: false
+  xy: 792, 478
+  size: 218, 136
+  orig: 218, 256
+  offset: 0, 6
+  index: -1
+hittype24
+  rotate: false
+  xy: 555, 119
+  size: 74, 240
+  orig: 109, 300
+  offset: 17, 49
+  index: -1
+05
+  rotate: false
+  xy: 631, 202
+  size: 151, 189
+  orig: 153, 191
+  offset: 1, 1
+  index: -1
+03
+  rotate: false
+  xy: 784, 254
+  size: 109, 222
+  orig: 163, 259
+  offset: 31, 0
+  index: -1
+04
+  rotate: false
+  xy: 895, 278
+  size: 128, 198
+  orig: 163, 259
+  offset: 18, 23
+  index: -1
+hit3
+  rotate: false
+  xy: 631, 80
+  size: 197, 120
+  orig: 200, 168
+  offset: 0, 48
+  index: -1
+icehit4
+  rotate: false
+  xy: 1, 5
+  size: 132, 73
+  orig: 145, 73
+  offset: 1, 0
+  index: -1
+ice1
+  rotate: false
+  xy: 830, 42
+  size: 72, 210
+  orig: 72, 210
+  offset: 0, 0
+  index: -1
+ice2
+  rotate: false
+  xy: 904, 42
+  size: 67, 234
+  orig: 67, 234
+  offset: 0, 0
+  index: -1
+hit5
+  rotate: false
+  xy: 973, 158
+  size: 40, 118
+  orig: 200, 168
+  offset: 156, 0
+  index: -1
+gravestone
+  rotate: false
+  xy: 379, 5
+  size: 86, 110
+  orig: 86, 110
+  offset: 0, 0
+  index: -1
+atkline4
+  rotate: false
+  xy: 467, 2
+  size: 77, 130
+  orig: 100, 187
+  offset: 13, 23
+  index: -1
+flame9
+  rotate: false
+  xy: 546, 20
+  size: 65, 97
+  orig: 218, 256
+  offset: 79, 13
+  index: -1
+down_arrow
+  rotate: false
+  xy: 613, 1
+  size: 57, 77
+  orig: 60, 78
+  offset: 1, 1
+  index: -1
+gravedirt
+  rotate: false
+  xy: 672, 18
+  size: 102, 60
+  orig: 102, 60
+  offset: 0, 0
+  index: -1
+hittype26
+  rotate: false
+  xy: 973, 76
+  size: 34, 80
+  orig: 109, 300
+  offset: 37, 93
+  index: -1
+hit1
+  rotate: false
+  xy: 135, 6
+  size: 21, 72
+  orig: 200, 168
+  offset: 4, 21
+  index: -1
+gravecover
+  rotate: false
+  xy: 397, 564
+  size: 27, 16
+  orig: 27, 16
+  offset: 0, 0
+  index: -1
+
+animation2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+icehit1
+  rotate: false
+  xy: 1, 332
+  size: 92, 178
+  orig: 92, 178
+  offset: 0, 0
+  index: -1
+ice3
+  rotate: false
+  xy: 1, 133
+  size: 70, 197
+  orig: 70, 197
+  offset: 0, 0
+  index: -1
+hit4
+  rotate: false
+  xy: 95, 367
+  size: 123, 143
+  orig: 200, 168
+  offset: 77, 13
+  index: -1
+cc1
+  rotate: false
+  xy: 220, 378
+  size: 125, 132
+  orig: 125, 132
+  offset: 0, 0
+  index: -1
+flame8
+  rotate: false
+  xy: 347, 353
+  size: 103, 157
+  orig: 218, 256
+  offset: 65, 12
+  index: -1
+atkline1
+  rotate: false
+  xy: 452, 348
+  size: 92, 162
+  orig: 100, 187
+  offset: 2, 14
+  index: -1
+icehit3
+  rotate: false
+  xy: 546, 341
+  size: 92, 169
+  orig: 92, 169
+  offset: 0, 0
+  index: -1
+dfeline1
+  rotate: false
+  xy: 640, 349
+  size: 92, 161
+  orig: 100, 184
+  offset: 2, 12
+  index: -1
+icehit2
+  rotate: false
+  xy: 734, 334
+  size: 82, 176
+  orig: 82, 176
+  offset: 0, 0
+  index: -1
+ice4
+  rotate: false
+  xy: 818, 331
+  size: 71, 179
+  orig: 71, 179
+  offset: 0, 0
+  index: -1
+hittype25
+  rotate: false
+  xy: 891, 331
+  size: 55, 179
+  orig: 109, 300
+  offset: 27, 64
+  index: -1
+hittype22
+  rotate: false
+  xy: 948, 338
+  size: 54, 172
+  orig: 109, 300
+  offset: 27, 13
+  index: -1
+dfeline4
+  rotate: false
+  xy: 1, 1
+  size: 76, 130
+  orig: 100, 184
+  offset: 14, 21
+  index: -1
+atkline2
+  rotate: false
+  xy: 73, 183
+  size: 84, 147
+  orig: 100, 187
+  offset: 8, 15
+  index: -1
+dfeline2
+  rotate: false
+  xy: 79, 35
+  size: 84, 146
+  orig: 100, 184
+  offset: 8, 13
+  index: -1
+atkline3
+  rotate: false
+  xy: 159, 230
+  size: 61, 135
+  orig: 100, 187
+  offset: 20, 18
+  index: -1
+attack
+  rotate: false
+  xy: 222, 277
+  size: 95, 99
+  orig: 96, 100
+  offset: 0, 1
+  index: -1
+cc2
+  rotate: false
+  xy: 319, 244
+  size: 125, 107
+  orig: 125, 107
+  offset: 0, 0
+  index: -1
+dfeline3
+  rotate: false
+  xy: 446, 213
+  size: 61, 133
+  orig: 100, 184
+  offset: 20, 17
+  index: -1
+icehit5
+  rotate: false
+  xy: 509, 258
+  size: 145, 81
+  orig: 145, 81
+  offset: 0, 0
+  index: -1
+hit2
+  rotate: false
+  xy: 656, 262
+  size: 55, 85
+  orig: 200, 168
+  offset: 6, 61
+  index: -1
+up_arrow
+  rotate: false
+  xy: 713, 256
+  size: 57, 76
+  orig: 60, 77
+  offset: 1, 0
+  index: -1
+hittype21
+  rotate: false
+  xy: 772, 250
+  size: 29, 82
+  orig: 109, 300
+  offset: 41, 9
+  index: -1
+icehit6
+  rotate: false
+  xy: 222, 228
+  size: 53, 47
+  orig: 53, 47
+  offset: 0, 0
+  index: -1
