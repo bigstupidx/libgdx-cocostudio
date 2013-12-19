@@ -10,7 +10,7 @@ public class Main {
 		cfg.title = "test";
 		cfg.useGL20 = true;
 		cfg.width = 480;
-		cfg.height = 800;
+		cfg.height = 320;
 		new LwjglApplication(new Test(), cfg);
 	}
 }
