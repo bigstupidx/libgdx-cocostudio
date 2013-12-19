@@ -4,6 +4,7 @@ libgdx-0.9.8/sources/gdx-openal-sources
 libgdx-0.9.8/sources/gdx-backend-lwjgl-sources
 test_skeleton
 
+test_skeleton中包含cocostudio的ui编辑器的解析和动画编辑器的解析
 运行test_skeleton即可看到效果
 
 建议使用CocoStudioV0.4.0.0或者V1.0.2.0版本
