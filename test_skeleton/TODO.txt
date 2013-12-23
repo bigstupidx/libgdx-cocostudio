@@ -1,0 +1,3 @@
+x、添加actionmanager，实现cocostudio的动作功能
+x、添加pageview控件
+x、增加自定义控件的添加方法

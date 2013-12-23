@@ -65,7 +65,7 @@ public class UIWidget extends Actor {
 		this.parent_widget = parent_widget;
 	}
 
-	protected int tag, action_tag;
+	protected int tag = -1, action_tag = -1;
 
 	public void setWidgetTag(int tag) {
 		this.tag = tag;
@@ -129,6 +129,18 @@ public class UIWidget extends Actor {
 		if (this.name != null && this.name.equals(name)) {
 			return this;
 		}
+		return null;
+	}
+
+	public UIWidget findWidgetByTag(int tag_id) {
+		if (this.tag != -1 && this.tag == tag_id)
+			return this;
+		return null;
+	}
+
+	public UIWidget findActionWidgetByTag(int action_tag_id) {
+		if (this.action_tag != -1 && this.action_tag == action_tag_id)
+			return this;
 		return null;
 	}
 

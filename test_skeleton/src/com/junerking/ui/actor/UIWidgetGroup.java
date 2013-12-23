@@ -48,6 +48,36 @@ public class UIWidgetGroup extends UIWidget {
 	}
 
 	@Override
+	public UIWidget findWidgetByTag(int tag_id) {
+		if (this.tag != -1 && this.tag == tag_id)
+			return this;
+		for (int i = 0, n = child_list.size(); i < n; i++) {
+			UIWidget child = child_list.get(i);
+			if (child == null)
+				continue;
+			UIWidget result = child.findWidgetByTag(tag_id);
+			if (result != null)
+				return result;
+		}
+		return null;
+	}
+
+	@Override
+	public UIWidget findActionWidgetByTag(int action_tag_id) {
+		if (this.action_tag != -1 && this.action_tag == action_tag_id)
+			return this;
+		for (int i = 0, n = child_list.size(); i < n; i++) {
+			UIWidget child = child_list.get(i);
+			if (child == null)
+				continue;
+			UIWidget result = child.findActionWidgetByTag(action_tag_id);
+			if (result != null)
+				return result;
+		}
+		return null;
+	}
+
+	@Override
 	public void prepare() {
 		super.prepare();
 		for (int i = 0, n = child_list.size(); i < n; i++) {
@@ -267,7 +297,7 @@ public class UIWidgetGroup extends UIWidget {
 		} else {
 			worldTransform.set(localTransform);
 		}
-		
+
 		System.out.println("== " + worldTransform);
 
 		batchTransform.set(worldTransform);
