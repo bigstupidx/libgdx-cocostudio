@@ -18,11 +18,9 @@ import com.junerking.skeleton.Armature;
 import com.junerking.skeleton.Skeleton;
 import com.junerking.skeleton.SkeletonFactory;
 import com.junerking.skeleton.sdp.XAnimation;
-import com.junerking.skeleton.sdp.XAnimationActor;
 import com.junerking.textureatlas.TextureAtlasManager;
 import com.junerking.ui.UIClickListener;
 import com.junerking.ui.UIResourcesMgr;
-import com.junerking.ui.actor.UIButton;
 import com.junerking.ui.actor.UIHelper;
 import com.junerking.ui.actor.UIWidget;
 
@@ -30,7 +28,7 @@ public class Test implements ApplicationListener, InputProcessor, UIClickListene
 	public static final int WIDTH = 480;
 	public static final int HEIGHT = 320;
 
-	private static final int TOTAL_TEST_COUNT = 5;
+	private static final int TOTAL_TEST_COUNT = 6;
 
 	private OrthographicCamera camera;
 	private SpriteBatch sprite_batch;
@@ -44,13 +42,13 @@ public class Test implements ApplicationListener, InputProcessor, UIClickListene
 
 	private XAnimation.State animation_state;
 	private XAnimation animation;
-	private XAnimationActor animation_actor;
 
 	//test_4
 	private Stage cocosui_stage;
 	private UIWidget cocosui_test;
 
 	private Texture bk;
+	private ProgressCircleBar circle_bar;
 
 	private int test_index = 0, test_index_small = 0;
 
@@ -61,7 +59,7 @@ public class Test implements ApplicationListener, InputProcessor, UIClickListene
 		camera.update();
 
 		sprite_batch = new SpriteBatch();
-		createTestCase(4);
+		createTestCase(5);
 
 		Gdx.input.setInputProcessor(this);
 	}
@@ -89,7 +87,6 @@ public class Test implements ApplicationListener, InputProcessor, UIClickListene
 		case 1: {
 			//2D骨骼动画的测试，基于cocostudio，暂时还没有将粒子系统合并到此2d骨骼动画中
 			Skeleton skeleton = SkeletonFactory.createSkeleton("assets/new.ExportJson");
-
 			//armature和armature2仅在播放速度上有区别，其他没什么区别
 			armature = skeleton.buildArmature("new");
 			armature.setTextureAtlas(new TextureAtlas("assets/xiaotu.pack"));
@@ -117,8 +114,6 @@ public class Test implements ApplicationListener, InputProcessor, UIClickListene
 			animation = XAnimation.createAnimation("assets/icestrom.xml");
 			animation_state = animation.createState();
 			animation_state.changeAction("rom");
-
-			animation_actor = new XAnimationActor(animation);
 		}
 			break;
 
@@ -136,6 +131,14 @@ public class Test implements ApplicationListener, InputProcessor, UIClickListene
 //			login_button.setPosition(0, 0);
 //			login_button.setUIClickListener(this);
 			cocosui_stage.addActor(cocosui_test);
+		}
+			break;
+
+		case 5: {
+			TextureAtlas atlas = new TextureAtlas("assets/ui.pack");
+			circle_bar = new ProgressCircleBar();
+			circle_bar.setPosition(240, 160);
+			circle_bar.setTextureRegion(atlas.findRegion("btggo"));
 		}
 			break;
 		}
@@ -198,6 +201,12 @@ public class Test implements ApplicationListener, InputProcessor, UIClickListene
 		case 4:
 			cocosui_stage.act(Gdx.graphics.getDeltaTime());
 			cocosui_stage.draw();
+			break;
+
+		case 5:
+			sprite_batch.begin();
+			circle_bar.draw(sprite_batch, 1.0f);
+			sprite_batch.end();
 			break;
 		}
 	}

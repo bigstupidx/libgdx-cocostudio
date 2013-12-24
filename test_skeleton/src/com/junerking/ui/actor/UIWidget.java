@@ -7,6 +7,9 @@ import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.junerking.ui.UIClickListener;
 
+// when we customzised a widget, we need call super()
+// this register touch handler for us;
+
 public class UIWidget extends Actor {
 
 	private XXClickListener _x_click_listener;
@@ -24,6 +27,8 @@ public class UIWidget extends Actor {
 		this.addListener(_x_click_listener);
 	}
 
+	//must be called before rendering, because It set textureRegions for UIImage, UIButton and so on
+	//usually I call it just before I want to show it;
 	public void prepare() {
 		if (parent_widget == null) {
 			return;
@@ -196,6 +201,7 @@ public class UIWidget extends Actor {
 	}
 
 	//可以设置一个区域，相对于自己的位置的一个区域touch_bound
+	//设置之后就可以不受控件本身大小的限制，切图时留空白是一种办法，但是这种更好
 	protected Rectangle tbound = new Rectangle();
 	protected boolean touch_bound_setted = false;
 

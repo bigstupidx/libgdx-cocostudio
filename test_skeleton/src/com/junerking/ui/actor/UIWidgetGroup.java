@@ -261,7 +261,7 @@ public class UIWidgetGroup extends UIWidget {
 	protected void applyTransform(SpriteBatch batch, Matrix4 transform) {
 		oldBatchTransform.set(batch.getTransformMatrix());
 		batch.setTransformMatrix(tempBatchTransform.set(oldBatchTransform).mul(transform));
-		System.out.println(name + "\n" + batch.getTransformMatrix());
+//		System.out.println(name + "\n" + batch.getTransformMatrix());
 	}
 
 	protected Matrix4 computeTransform() {
@@ -298,7 +298,7 @@ public class UIWidgetGroup extends UIWidget {
 			worldTransform.set(localTransform);
 		}
 
-		System.out.println("== " + worldTransform);
+//		System.out.println("== " + worldTransform);
 
 		batchTransform.set(worldTransform);
 		return batchTransform;
